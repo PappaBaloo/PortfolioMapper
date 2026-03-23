@@ -1,0 +1,16 @@
+# Binaries
+*.exe
+*.out
+/bin/
+
+# Go build cache
+*.test
+
+# Database file (you don't want to commit this)
+*.db
+
+# VSCode
+.vscode/
+
+# Environment variables (important for secrets later)
+.env
