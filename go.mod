@@ -1,4 +1,4 @@
-module github.com/PappaBaloo/PortfolioMapping
+module github.com/PappaBaloo/PortfolioMapper
 
 go 1.26.1
 
