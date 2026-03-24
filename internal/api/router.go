@@ -12,5 +12,6 @@ func NewRouter() *chi.Mux {
 	router.Get("/nigger", func(w http.ResponseWriter, r *http.Request) {
 		io.WriteString(w, "Nigger!")
 	})
+	router.Get("/portfolio", func(w http.ResponseWriter, r *http.Request) {})
 	return router
 }
