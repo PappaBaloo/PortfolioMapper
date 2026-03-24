@@ -4,7 +4,7 @@ import (
 	"github.com/PappaBaloo/PortfolioMapper/internal/models"
 )
 
-func mockPortfolio() *models.Portfolio {
+func MockPortfolio() *models.Portfolio {
 	return &models.Portfolio{
 		ID:          "1",
 		Name:        "My Portfolio",
