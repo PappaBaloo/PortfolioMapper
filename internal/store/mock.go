@@ -4,10 +4,13 @@ import (
 	"github.com/PappaBaloo/PortfolioMapper/internal/models"
 )
 
-func MockPortfolio() *models.Portfolio {
+type MockStore struct {
+}
+
+func (m *MockStore) GetPortfolio() *models.Portfolio {
 	return &models.Portfolio{
 		ID:          "1",
-		Name:        "My Portfolio",
+		Name:        "Portfolio 1",
 		Description: "A simple portfolio",
 	}
 }
